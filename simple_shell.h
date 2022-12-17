@@ -125,7 +125,7 @@ char *find_path(info_t *, char *, char *);
 /* loophsh.c */
 int loophsh(char **);
 
-/* toem_errors.c */
+/* tour_errors.c */
 void _eputs(char *);
 int _eputchar(char);
 int _putfd(char c, int fd);
@@ -178,7 +178,7 @@ int _exit(info_t *);
 int _cd(info_t *);
 int _help(info_t *);
 
-/* tour_embedded1.c */
+/* tour_embedded::c */
 int _history(info_t *);
 int _alias(info_t *);
 
