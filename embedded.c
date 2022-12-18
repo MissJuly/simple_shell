@@ -7,7 +7,7 @@
  *  Return: exits with a given exit status
  *         (0) if info.argv[0] != "exit"
  */
-int _exit(info_t *info)
+int _ourexit(info_t *info)
 {
 	int exitcheck;
 

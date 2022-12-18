@@ -174,7 +174,7 @@ char *convert_number(long int, int, int);
 void remove_comments(char *);
 
 /* tour_embedded.c */
-int _exit(info_t *);
+int _ourexit(info_t *);
 int _cd(info_t *);
 int _help(info_t *);
 
@@ -195,8 +195,8 @@ void free_info(info_t *, int);
 /* tour_env.c */
 char *_getenv(info_t *, const char *);
 int _env(info_t *);
-int _setenv(info_t *);
-int _unsetenv(info_t *);
+int _oursetenv(info_t *);
+int _ourunsetenv(info_t *);
 int populate_env_list(info_t *);
 
 /* tour_getenv.c */

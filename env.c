@@ -41,7 +41,7 @@ char *_getenv(info_t *info, const char *name)
  *        constant function prototype.
  *  Return: Always 0
  */
-int _setenv(info_t *info)
+int _oursetenv(info_t *info)
 {
 	if (info->argc != 3)
 	{
@@ -59,7 +59,7 @@ int _setenv(info_t *info)
  *        constant function prototype.
  *  Return: Always 0
  */
-int _unsetenv(info_t *info)
+int _ourunsetenv(info_t *info)
 {
 	int i;
 

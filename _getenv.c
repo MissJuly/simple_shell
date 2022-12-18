@@ -1,4 +1,4 @@
-#include "simple_shell.c"
+#include "simple_shell.h"
 
 /**
  * get_environ - returns the string array copy of our environ
