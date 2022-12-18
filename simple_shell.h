@@ -157,7 +157,7 @@ char *_memset(char *, char, unsigned int);
 void ffree(char **);
 void *_realloc(void *, unsigned int, unsigned int);
 
-/* tour_memory.c */
+/* tour_memo.c */
 int bfree(void **);
 
 /* tour_atoi.c */
@@ -166,7 +166,7 @@ int is_delim(char, char *);
 int _isalpha(int);
 int our_atoi(char *);
 
-/* toem_errors1.c */
+/* tour_more_errors.c */
 int _erratoi(char *);
 void print_error(info_t *, char *);
 int print_d(int, int);
@@ -178,7 +178,7 @@ int _exit(info_t *);
 int _cd(info_t *);
 int _help(info_t *);
 
-/* tour_embedded1.c */
+/* tour_more_embedded.c */
 int _history(info_t *);
 int _alias(info_t *);
 
