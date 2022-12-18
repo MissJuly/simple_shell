@@ -178,7 +178,7 @@ int _exit(info_t *);
 int _cd(info_t *);
 int _help(info_t *);
 
-/* tour_embedded::c */
+/* tour_embedded1.c */
 int _history(info_t *);
 int _alias(info_t *);
 
@@ -218,7 +218,7 @@ size_t print_list_str(const list_t *);
 int delete_node_at_index(list_t **, unsigned int);
 void free_list(list_t **);
 
-/* toem_lists1.c */
+/* tour_more_lists.c */
 size_t list_len(const list_t *);
 char **list_to_strings(list_t *);
 size_t print_list(const list_t *);
