@@ -111,7 +111,7 @@ typedef struct builtin
 } builtin_table;
 
 
-/* toem_shloop.c */
+/* tour_prompt.c */
 int hsh(info_t *, char **);
 int find_builtin(info_t *);
 void find_cmd(info_t *);
@@ -152,7 +152,7 @@ char *_strchr(char *, char);
 char **strtow(char *, char *);
 char **strtow2(char *, char);
 
-/* toem_realloc.i */
+/* tour_realloc.c */
 char *_memset(char *, char, unsigned int);
 void ffree(char **);
 void *_realloc(void *, unsigned int, unsigned int);
