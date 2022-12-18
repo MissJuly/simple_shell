@@ -182,12 +182,12 @@ int _help(info_t *);
 int _history(info_t *);
 int _alias(info_t *);
 
-/*toem_getline.c */
+/* tour_getline.c */
 ssize_t get_input(info_t *);
 int _getline(info_t *, char **, size_t *);
 void sigintHandler(int);
 
-/* toem_getinfo.c */
+/* tour_getinfo.c */
 void clear_info(info_t *);
 void set_info(info_t *, char **);
 void free_info(info_t *, int);
@@ -199,12 +199,12 @@ int _setenv(info_t *);
 int _unsetenv(info_t *);
 int populate_env_list(info_t *);
 
-/* toem_getenv.c */
+/* tour_getenv.c */
 char **get_environ(info_t *);
 int _unsetenv(info_t *, char *);
 int _setenv(info_t *, char *, char *);
 
-/* toem_history.c */
+/* tour_history.c */
 char *get_history_file(info_t *info);
 int write_history(info_t *info);
 int read_history(info_t *info);
